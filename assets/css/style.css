@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html {
+    font-family: "Helvetica","Arial",sans-serif;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+pre {
+    background: #fff;
+    font-family: source code pro,Consolas,Monaco,andale mono,courier new,Courier,monospace;
+    clear: both;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    overflow: auto;
+    padding: 2em;
+    line-height: 2em;
+    font-size: 12px;
+    transition: all ease-in-out .5s;
+    margin-bottom: 30px;
+    position: relative;
+    left: 0;
+    text-transform: none;
+}
+
+.page-content {
+    background: #eee;
+}
+
+.mdl-layout__content {
+    background: #eee;
+}
+
+.page {
+    width: 800px;
+    min-height: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+}
+
+.page h2 {
+    line-height: 50px;
+    font-size: 150%;
+    color: #3f51b5;
+    /*text-transform: uppercase;*/
+}
+
+.page h3 {
+    line-height: 50px;
+    font-size: 120%;
+    color: #3f51b5;
+}
+
+.page .page-inner {
+    border-top: 1px solid #3f51b5;
+    padding: 20px;
+}
+
+span.code, code {
+    font-family: source code pro,Consolas,Monaco,andale mono,courier new,Courier,monospace;
+}
+
+@media (max-width: 768px) {
+    .page {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .mdl-dialog {
+        width: 80% !important;
+    }
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 20px 10px 0 10px;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    color: #3f51b5;
+}
+
+thead {
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.mdl-button--fab {
+    min-width: 36px !important;
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 18px !important;
+    margin-top: -10px;
+}
+
+.mdl-dialog {
+    width: 500px;
+}
+
+#percent {
+    display: block;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.upload-cnt {
+    margin: 50px 0;
+}
+
+.upload-cnt h3 {
+    line-height: 20px;
+}
+
+.upload-btn {
+    float: left;
+    margin-right: 20px;
+}
